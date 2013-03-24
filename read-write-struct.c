@@ -24,8 +24,8 @@ void read_struct(){
 }
 
 int main(){
-	//write_struct();
-	read_struct();
+	write_struct();
+	//read_struct();
 	return 0;
 }
 
