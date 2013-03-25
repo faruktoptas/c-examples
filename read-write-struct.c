@@ -16,10 +16,10 @@ void write_struct(){
 
 void read_struct(){
 	FILE *file;
-	struct MyStruct ptr;
+	struct MyStruct myStruct;
 	file = fopen("data.bin","r+");
-	fread(&ptr,sizeof(struct MyStruct),1,file);
-	printf("MyStruct.val: %c\nMyStruct.num: %d\n",ptr.val[0],ptr.num);
+	fread(&myStruct,sizeof(struct MyStruct),1,file);
+	printf("MyStruct.val: %c\nMyStruct.num: %d\n",myStruct.val[0],myStruct.num);
 	fclose(file);
 }
 
