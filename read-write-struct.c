@@ -4,6 +4,7 @@ struct MyStruct{
 	char val[1];
 	int num;
 };
+
 void write_struct(){
 	struct MyStruct myStruct;
 	FILE *file;
