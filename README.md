@@ -1,4 +1,4 @@
-cexamples
+c-examples
 =========
 
-cexamples
+Basic C examples
